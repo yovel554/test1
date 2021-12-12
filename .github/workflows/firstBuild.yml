@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: run test script
-        run: apt install -m pytest
+      - name: install pytest
+        run: sudo apt install -m pytest
       - name: run test
         run: pytest
