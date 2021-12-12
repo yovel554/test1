@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: run test script
-        run: apt install -y python-pytest
+        run: apt install -m pytest
       - name: run test
         run: pytest
