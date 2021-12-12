@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install pytest
-        run: sudo apt install -m pytest
+        run: python3 test_add.py
       - name: run test
         run: pytest
